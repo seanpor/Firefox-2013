@@ -6,12 +6,12 @@ A restricted dataset of bugs in Firefox extracted from the academic release of t
 * 1,959 labeled bugs and 8,461 unlabeled bugs - without a version label.
 
 The columns in the dataset are:
-* Version: The version number of Firefox associated with this bug, e.g. 14, or `PreRapid' to describe any version prior to 5, or `Unknown' for any bug which did not have a version number associated with it.
+* Version: The version number of Firefox associated with this bug, e.g. 14, or 'PreRapid' to describe any version prior to 5, or 'Unknown' for any bug which did not have a version number associated with it.
 * bug_id: The original bug number in the Bugzilla database. Further details on this bug can be queried at https://bugzilla.mozilla.org/
 * bug_severity: One of: blocker, critical, major, normal, minor, trivial. Note that these labels have an order.
 * bug_status: One of: ASSIGNED, NEW, REOPENED, RESOLVED, VERIFIED.
-* priority: One of: `--', P1, P2, P3, P4, P5. Where P1 has the highest priority and `--' means that no priority has been assigned.
-* creation_ts: A character string POSIX timestamp of when the bug was first inserted into the bugzilla database, e.g. "2011-04-13 17:19:05".
+* priority: One of: '--', P1, P2, P3, P4, P5. Where P1 has the highest priority and '--' means that no priority has been assigned.
+* creation_ts: A character string POSIX timestamp of when the bug was first inserted into the bugzilla database, e.g. '2011-04-13 17:19:05'.
 * reporter: The ID number of the person reporting the bug from the underlying bugzilla database - for privacy reasons instead of needlessly using email addresses.
 * component_id: The ID number of the component from the Bugzilla database. There are 45 components used in Firefox, some of which are shared with other Mozilla Foundation products like Thunderbird.
 

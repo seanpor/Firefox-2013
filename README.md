@@ -31,3 +31,13 @@ m2$component_id <- factor(m2$component_id)
 str(m2)
 summary(m2)
 ```
+
+The file `FirefoxVersionInfo.csv` gives information on the versions of Firefox in this dataset - namely the Rapid-Releases from 5 to 25.
+The columns in this file are:
+
+* Version: The release version number, e.g. 5.
+* Release: The release version as text, e.g. `release-15.0'.
+* FChanged: The number of files changed since the previous version.
+* LInserts: The number of lines added since the previous version.
+* LDeletions: The number of lines deleted since the previous version.
+* releasedate: The release date for this version.
